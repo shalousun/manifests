@@ -11680,10 +11680,10 @@ stringData:
   YATAI_SYSTEM_NAMESPACE: kubeflow
   YATAI_API_TOKEN: "cGwT5QAjvuQ6HuEC"
 
-  INTERNAL_IMAGES_METRICS_TRANSFORMER: "quay.io/bentoml/yatai-bento-metrics-transformer:0.0.4"
-  INTERNAL_IMAGES_DEBUGGER: "quay.io/bentoml/bento-debugger:0.0.8"
-  INTERNAL_IMAGES_MONITOR_EXPORTER: "quay.io/bentoml/bentoml-monitor-exporter:0.0.3"
-  INTERNAL_IMAGES_PROXY: "quay.io/bentoml/bentoml-proxy:0.0.1"
+  INTERNAL_IMAGES_METRICS_TRANSFORMER: "quay.m.daocloud.io/bentoml/yatai-bento-metrics-transformer:0.0.4"
+  INTERNAL_IMAGES_DEBUGGER: "quay.m.daocloud.io/bentoml/bento-debugger:0.0.8"
+  INTERNAL_IMAGES_MONITOR_EXPORTER: "quay.m.daocloud.io/bentoml/bentoml-monitor-exporter:0.0.3"
+  INTERNAL_IMAGES_PROXY: "quay.m.daocloud.io/bentoml/bentoml-proxy:0.0.1"
 
   DISABLE_YATAI_COMPONENT_REGISTRATION: "false"
 ---
@@ -12409,7 +12409,7 @@ spec:
             capabilities:
               drop:
               - ALL
-          image: "quay.io/bentoml/yatai-deployment:1.1.21"
+          image: "quay.m.daocloud.io/bentoml/yatai-deployment:1.1.21"
           imagePullPolicy: IfNotPresent
 
           ports:

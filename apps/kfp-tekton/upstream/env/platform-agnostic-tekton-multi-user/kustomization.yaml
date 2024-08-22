@@ -13,14 +13,14 @@ commonLabels:
   application-crd-id: kubeflow-pipelines
 
 images:
-- name: gcr.io/ml-pipeline/api-server
-  newName: quay.io/aipipeline/apiserver
+- name: gcr.m.daocloud.io/ml-pipeline/api-server
+  newName: quay.m.daocloud.io/aipipeline/apiserver
   newTag: 2.0.5
-- name: gcr.io/ml-pipeline/persistenceagent
-  newName: quay.io/aipipeline/persistenceagent
+- name: gcr.m.daocloud.io/ml-pipeline/persistenceagent
+  newName: quay.m.daocloud.io/aipipeline/persistenceagent
   newTag: 2.0.5
-- name: gcr.io/ml-pipeline/scheduledworkflow
-  newName: quay.io/aipipeline/scheduledworkflow
+- name: gcr.m.daocloud.io/ml-pipeline/scheduledworkflow
+  newName: quay.m.daocloud.io/aipipeline/scheduledworkflow
   newTag: 2.0.5
 
 patchesStrategicMerge:

@@ -36,7 +36,7 @@ chmod +x yq_linux_amd64
 mv yq_linux_amd64 /usr/local/bin/yq
 popd
 
-# kpt and kubectl should already be installed in gcr.io/google.com/cloudsdktool/cloud-sdk:latest
+# kpt and kubectl should already be installed in gcr.m.daocloud.io/google.com/cloudsdktool/cloud-sdk:latest
 # so we do not need to install them here
 
 # trigger real unit tests

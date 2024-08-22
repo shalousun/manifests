@@ -14,11 +14,11 @@ init:
 runtime:
   metricsCollectors:
     - kind: StdOut
-      image: docker.io/kubeflowkatib/file-metrics-collector:v0.17.0
+      image: docker.m.daocloud.io/kubeflowkatib/file-metrics-collector:v0.17.0
     - kind: File
-      image: docker.io/kubeflowkatib/file-metrics-collector:v0.17.0
+      image: docker.m.daocloud.io/kubeflowkatib/file-metrics-collector:v0.17.0
     - kind: TensorFlowEvent
-      image: docker.io/kubeflowkatib/tfevent-metrics-collector:v0.17.0
+      image: docker.m.daocloud.io/kubeflowkatib/tfevent-metrics-collector:v0.17.0
       resources:
         limits:
           memory: 1Gi

@@ -15,7 +15,7 @@ data:
         spec:
           containers:
             - name: training-container
-              image: docker.io/kubeflowkatib/pytorch-mnist-cpu:v0.17.0
+              image: docker.m.daocloud.io/kubeflowkatib/pytorch-mnist-cpu:v0.17.0
               command:
                 - "python3"
                 - "/opt/pytorch-mnist/mnist.py"

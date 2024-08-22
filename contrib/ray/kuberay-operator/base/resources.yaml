@@ -50422,7 +50422,7 @@ spec:
             runAsNonRoot: true
             seccompProfile:
               type: RuntimeDefault
-          image: "quay.io/kuberay/operator:v1.1.1"
+          image: "quay.m.daocloud.io/kuberay/operator:v1.1.1"
           imagePullPolicy: IfNotPresent
           command:
             - /manager

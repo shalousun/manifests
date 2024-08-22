@@ -8,5 +8,5 @@ resources:
   - metadata-envoy-service.yaml
   - metadata-grpc-sa.yaml
 images:
-  - name: gcr.io/ml-pipeline/metadata-envoy
+  - name: gcr.m.daocloud.io/ml-pipeline/metadata-envoy
     newTag: 1.8.4

@@ -8,5 +8,5 @@ resources:
 commonLabels:
   app: cache-deployer
 images:
-  - name: gcr.io/ml-pipeline/cache-deployer
+  - name: gcr.m.daocloud.io/ml-pipeline/cache-deployer
     newTag: 1.8.4

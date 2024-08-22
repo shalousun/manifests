@@ -1546,10 +1546,10 @@ stringData:
   DOCKER_REGISTRY_SECURE: "false"
   DOCKER_REGISTRY_BENTO_REPOSITORY_NAME: "yatai-bentos"
 
-  INTERNAL_IMAGES_BENTO_DOWNLOADER: "quay.io/bentoml/bento-downloader:0.0.1"
-  INTERNAL_IMAGES_KANIKO: "quay.io/bentoml/kaniko:debug"
-  INTERNAL_IMAGES_BUILDKIT: "quay.io/bentoml/buildkit:master"
-  INTERNAL_IMAGES_BUILDKIT_ROOTLESS: "quay.io/bentoml/buildkit:master-rootless"
+  INTERNAL_IMAGES_BENTO_DOWNLOADER: "quay.m.daocloud.io/bentoml/bento-downloader:0.0.1"
+  INTERNAL_IMAGES_KANIKO: "quay.m.daocloud.io/bentoml/kaniko:debug"
+  INTERNAL_IMAGES_BUILDKIT: "quay.m.daocloud.io/bentoml/buildkit:master"
+  INTERNAL_IMAGES_BUILDKIT_ROOTLESS: "quay.m.daocloud.io/bentoml/buildkit:master-rootless"
 
   BENTO_IMAGE_BUILD_ENGINE: "kaniko"
 
@@ -2169,7 +2169,7 @@ spec:
                 name: yatai-image-builder-env
           securityContext:
             {}
-          image: "quay.io/bentoml/yatai-image-builder:1.2.28"
+          image: "quay.m.daocloud.io/bentoml/yatai-image-builder:1.2.28"
           imagePullPolicy: IfNotPresent
 
           ports:

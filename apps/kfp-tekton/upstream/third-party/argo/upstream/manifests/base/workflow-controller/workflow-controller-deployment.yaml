@@ -17,7 +17,7 @@ spec:
       serviceAccountName: argo
       containers:
         - name: workflow-controller
-          image: quay.io/argoproj/workflow-controller:latest
+          image: quay.m.daocloud.io/argoproj/workflow-controller:latest
           securityContext:
             readOnlyRootFilesystem: true
             runAsNonRoot: true
@@ -31,7 +31,7 @@ spec:
             - --configmap
             - workflow-controller-configmap
             - --executor-image
-            - quay.io/argoproj/argoexec:latest
+            - quay.m.daocloud.io/argoproj/argoexec:latest
           env:
             - name: LEADER_ELECTION_IDENTITY
               valueFrom:

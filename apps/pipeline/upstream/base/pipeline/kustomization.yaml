@@ -35,15 +35,15 @@ resources:
   - viewer-sa.yaml
   - kfp-launcher-configmap.yaml
 images:
-  - name: gcr.io/ml-pipeline/api-server
+  - name: gcr.m.daocloud.io/ml-pipeline/api-server
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/persistenceagent
+  - name: gcr.m.daocloud.io/ml-pipeline/persistenceagent
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/scheduledworkflow
+  - name: gcr.m.daocloud.io/ml-pipeline/scheduledworkflow
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/frontend
+  - name: gcr.m.daocloud.io/ml-pipeline/frontend
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/viewer-crd-controller
+  - name: gcr.m.daocloud.io/ml-pipeline/viewer-crd-controller
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/visualization-server
+  - name: gcr.m.daocloud.io/ml-pipeline/visualization-server
     newTag: 2.2.0
