@@ -45,5 +45,5 @@ images:
     newTag: 2.2.0
   - name: gcr.m.daocloud.io/ml-pipeline/viewer-crd-controller
     newTag: 2.2.0
-  - name: gcr.m.daocloud.io/ml-pipeline/visualization-server
+  - name: gcr.io/ml-pipeline/visualization-server
     newTag: 2.2.0

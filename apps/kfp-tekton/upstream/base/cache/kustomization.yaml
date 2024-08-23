@@ -9,5 +9,5 @@ resources:
 commonLabels:
   app: cache-server
 images:
-  - name: gcr.m.daocloud.io/ml-pipeline/cache-server
+  - name: gcr.io/ml-pipeline/cache-server
     newTag: 2.0.5
